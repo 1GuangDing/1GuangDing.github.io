@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零基础HTML PPT制作教程</title>
+    <!-- 引入reveal.js的CDN资源 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+    <style>
+        /* 自定义风格：简约科技风 */
+        .reveal h1, .reveal h2 {
+            color: #0066cc; /* 主色调深蓝色 */
+            font-size: 28px !important;
+        }
+        .reveal p, .reveal li, .reveal table {
+            color: #333;
+            font-size: 18px !important;
+        }
+        .reveal section {
+            background-color: #ffffff; /* 白色背景 */
+        }
+        .signature {
+            margin-top: 50px;
+            font-size: 16px !important;
+            color: #666;
+        }
+        .footer-note {
+            margin-top: 30px;
+            font-size: 16px !important;
+            color: #666;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid #0066cc;
+            padding: 10px 20px;
+            text-align: left;
+        }
+        table th {
+            background-color: #e6f0ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <!-- 第1页：封面 -->
+            <section>
+                <h1>零基础HTML PPT制作教程</h1>
+                <p>用代码做更灵活的演示文稿</p>
+                <p class="signature">豆包用户</p>
+            </section>
+
+            <!-- 第2页：核心优势 -->
+            <section>
+                <h2>核心优势</h2>
+                <ul>
+                    <li>① 免费无广告</li>
+                    <li>② 无限修改样式</li>
+                    <li>③ 易分享（网页链接）</li>
+                </ul>
+            </section>
+
+            <!-- 第3页：制作步骤 -->
+            <section>
+                <h2>制作步骤</h2>
+                <ol>
+                    <li>AI生成代码</li>
+                    <li>编辑内容</li>
+                    <li>部署上线</li>
+                    <li>分享链接</li>
+                </ol>
+            </section>
+
+            <!-- 第4页：免费工具 -->
+            <section>
+                <h2>免费工具</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>工具名</th>
+                            <th>用途</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>CodePen</td>
+                            <td>编辑代码</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub Pages</td>
+                            <td>免费部署</td>
+                        </tr>
+                        <tr>
+                            <td>豆包</td>
+                            <td>生成代码</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- 第5页：结尾 -->
+            <section>
+                <h2>感谢观看！</h2>
+                <p class="footer-note">更多教程可关注后续分享</p>
+            </section>
+        </div>
+    </div>
+
+    <!-- 引入reveal.js的JS文件 -->
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+    <script>
+        // 初始化reveal.js，支持空格键/箭头翻页
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            slideNumber: true,
+            transition: 'slide'
+        });
+    </script>
+</body>
+</html>
